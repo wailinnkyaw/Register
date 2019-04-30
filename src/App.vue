@@ -35,7 +35,8 @@ export default {
       fixed: false,
       items: [
         { icon: "bubble_chart", title: "Page One - route /", to: "/" },
-        { icon: "bubble_chart", title: "Page Two - route /page2", to: "/page2" }
+        { icon: "bubble_chart", title: "Page Two - route /page2", to: "/page2" }, 
+        { icon: "bubble_chart", title: "Axios Sample - route /axios-sample", to: "/axios-sample" }
       ],
       miniVariant: false
     };
