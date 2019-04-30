@@ -2,8 +2,8 @@
   <v-app>
     <v-toolbar app>
       <v-toolbar-title class="headline">
-        <span>vuetify-vue-router-firebase-</span>
-        <span class="font-weight-light">boilerplate</span>
+        <span>Vuesterplate</span> 
+        <span class="font-weight-light"> - Vue Boilerplate</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
     </v-toolbar>
