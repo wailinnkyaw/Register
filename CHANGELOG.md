@@ -20,3 +20,9 @@
 
 - Add Axios
 - Add axios sample api call
+
+## v1.3
+[v1.3 - vuesterplate](https://github.com/hnhtag/vuesterplate/releases/tag/v1.3)
+
+- Add dynamic document title
+- Fixed some errors
