@@ -28,6 +28,6 @@
 - Fixed some errors
 
 ## v1.4
-[v1.4 - vuesterplate - fixed](https://github.com/hnhtag/vuesterplate/releases/tag/v1.4-fixed)
+[v1.3 - vuesterplate - fixed](https://github.com/hnhtag/vuesterplate/releases/tag/v1.3-fixed)
 
 - Fixed some errors
