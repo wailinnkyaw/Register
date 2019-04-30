@@ -16,6 +16,7 @@ git remote rm origin
 
 ### Create your own repo
 ```
+git init
 git add all
 git commit -m "your commit"
 git remote add origin https://github.com/username/your-repo.git
