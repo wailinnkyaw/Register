@@ -4,6 +4,7 @@ Vue boilerplate - Vue 2, Vuetify, Vue-router, Firebase
 ## Releases
 -  [v1.0 - vuesterplate](https://github.com/hnhtag/vuesterplate/releases/tag/v1.0) :skeleton (Vue2, Vuetify, Firebase, Vue-Router)
 -  [v1.1 - vuesterplate](https://github.com/hnhtag/vuesterplate/releases/tag/v1.1) :withNavDrawer (Vue2, Vuetify --NavDrawer, Firebase, Vue-Router)
+-  [v1.2 - vuesterplate](https://github.com/hnhtag/vuesterplate/releases/tag/v1.2) :withAxios (Vue2, Vuetify --NavDrawer, Firebase, Vue-Router, Axios)
 
 > See [CHANGELOG](CHANGELOG.md). See all [releases](https://github.com/hnhtag/vuesterplate/releases)
 
