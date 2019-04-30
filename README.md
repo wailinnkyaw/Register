@@ -1,4 +1,5 @@
-# vuerplate
+# vuesterplate
+
 Vue boilerplate - Vue 2, Vuetify, Vue-router, Firebase, Axios
 
 ## Releases
