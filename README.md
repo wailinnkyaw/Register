@@ -13,10 +13,9 @@ cd my-app
 git remote -v
 git remote rm origin
 ```
-
-### Create your own repo
+Let's make changes
+### Add your own remote
 ```
-git init
 git add all
 git commit -m "your commit"
 git remote add origin https://github.com/username/your-repo.git
