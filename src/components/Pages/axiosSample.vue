@@ -1,10 +1,11 @@
 <template>
-  <v-container fluid>
+  <v-container>
+    <vue-title :title="pgTitle + ' | Vuesterplate'"></vue-title>
     <v-layout text-xs-center wrap>
         <v-flex v-if="errored"><v-alert type="warning" :value="true">
              Error occurred while getting exchanges rates from "Central Bank of Myanmar"
         </v-alert></v-flex>
-      <v-flex v-if="loading & !errored">Getting Exchanges Rates from "Central Bank of Myanmar"</v-flex>
+      <v-flex v-if="loading & !errored">Getting Exchanges Rates from "Central Bank of Myanmar". Please, wait</v-flex>
       <v-flex offset-xs3 xs6 v-if="!loading & !errored">
         <v-card>
           <v-layout>
@@ -32,6 +33,7 @@ import axios from "axios";
 export default {
   data() {
     return {
+      pgTitle:"Axios sample",
       axiosRates: {},
       loading: false,
       errored: false,
