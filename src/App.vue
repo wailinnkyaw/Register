@@ -31,7 +31,7 @@ export default {
     return {
       title: "Vuesterplate",
       clipped: true,
-      drawer: true,
+      drawer: null,
       fixed: false,
       items: [
         { icon: "bubble_chart", title: "Page One - route /", to: "/" },

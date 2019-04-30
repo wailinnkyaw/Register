@@ -5,8 +5,8 @@
         <v-flex v-if="errored"><v-alert type="warning" :value="true">
              Error occurred while getting exchanges rates from "Central Bank of Myanmar"
         </v-alert></v-flex>
-      <v-flex v-if="loading & !errored">Getting Exchanges Rates from "Central Bank of Myanmar". Please, wait</v-flex>
-      <v-flex offset-xs3 xs6 v-if="!loading & !errored">
+      <v-flex v-if="loading && !errored">Getting Exchanges Rates from "Central Bank of Myanmar". Please, wait</v-flex>
+      <v-flex xs12 offset-md3 md6 v-if="!loading && !errored">
         <v-card>
           <v-layout>
             <v-flex xs12>
