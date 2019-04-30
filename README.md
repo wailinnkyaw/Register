@@ -5,7 +5,7 @@ Vue boilerplate - Vue 2, Vuetify, Vue-router, Firebase
 -  [v1.0 - vuesterplate](https://github.com/hnhtag/vuesterplate/releases/tag/v1.0)
 -  [v1.1 - vuesterplate](https://github.com/hnhtag/vuesterplate/releases/tag/v1.1)
 
-> See [CHANGELOG](CHANGELOG.md) | See all [releases](https://github.com/hnhtag/vuesterplate/releases)
+> See [CHANGELOG](CHANGELOG.md). See all [releases](https://github.com/hnhtag/vuesterplate/releases)
 
 ## Project setup
 
