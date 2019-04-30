@@ -7,7 +7,7 @@ Vue boilerplate - Vue 2, Vuetify, Vue-router, Firebase, Axios
 -  [v1.1 - vuesterplate](https://github.com/hnhtag/vuesterplate/releases/tag/v1.1) :Add NavDrawer (Vue2, Vuetify, Firebase, Vue-Router)
 -  [v1.2 - vuesterplate](https://github.com/hnhtag/vuesterplate/releases/tag/v1.2) :Add  Axios (Vue2, Vuetify, Firebase, Vue-Router, Axios)
 -  [v1.3 - vuesterplate](https://github.com/hnhtag/vuesterplate/releases/tag/v1.3) :Add Dynamic Document Title (Vue2, Vuetify, Firebase, Vue-Router, Axios)
--  [v1.4 - vuesterplate](https://github.com/hnhtag/vuesterplate/releases/tag/v1.4) :Just Fixed (Vue2, Vuetify, Firebase, Vue-Router, Axios) 
+-  [v1.4 - vuesterplate - fixed](https://github.com/hnhtag/vuesterplate/releases/tag/v1.4-fixed) :Just Fixed (Vue2, Vuetify, Firebase, Vue-Router, Axios) 
 
 > See [CHANGELOG](CHANGELOG.md). See all [releases](https://github.com/hnhtag/vuesterplate/releases)
 
