@@ -4,7 +4,7 @@
 
 ### Clone this boilerplate
 ```
-git clone https://github.com/hnhtag/vuetify-vue-router-firebase-boilerplate.git my-app
+git clone https://github.com/hnhtag/vuesterplate.git my-app
 ```
 
 ### Remove original git remote

@@ -1,9 +1,9 @@
 {
-  "name": "vuetify-vue-router-firebase-boilerplate",
+  "name": "vuesterplate",
   "version": "0.1.0",
   "author": {
     "name": "hnhtag",
-    "url": "https://github.com/hnhtag/vuetify-vue-router-firebase-boilerplate"
+    "url": "https://github.com/hnhtag/vuesterplate"
   },
   "private": true,
   "scripts": {
