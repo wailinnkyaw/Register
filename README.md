@@ -1,4 +1,4 @@
-# vuetify-vue-router-firebase-boilerplate
+# vuerplate
 
 ## Project setup
 
