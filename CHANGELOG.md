@@ -14,3 +14,5 @@
 - Add Vuetify navigation-drawer
 - Add Router Links
 - Add 2 Page
+
+> See all [releases](https://github.com/hnhtag/vuesterplate/releases)
