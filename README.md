@@ -13,13 +13,10 @@ cd my-app
 git remote -v
 git remote rm origin
 ```
-Let's make changes
+
 ### Add your own remote
 ```
-git add all
-git commit -m "your commit"
 git remote add origin https://github.com/username/your-repo.git
-git push -u origin master
 ```
 
 ### Install dependencies
