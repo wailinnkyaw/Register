@@ -1,6 +1,9 @@
 # vuerplate
 Starter boilerplate - Vue 2, Vuetify, Vue-router, Firebase 
 
+## Releases
+-  [v1.0](https://github.com/hnhtag/vuesterplate/releases/tag/v1.0) 
+
 ## Project setup
 
 ### Clone this boilerplate
