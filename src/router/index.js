@@ -1,13 +1,20 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HelloWorld from '../components/HelloWorld.vue'
+import PageOne from '../components/Pages/page1.vue'
+import PageTwo from '../components/Pages/page2.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
     {
         path: '/',
-        component: HelloWorld
+        name: "PageOne",
+        component: PageOne
+    },
+    {
+        path: '/page2',
+        name: "PageTwo",
+        component: PageTwo
     }
 ]
 

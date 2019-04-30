@@ -2,7 +2,7 @@
   <v-container>
     <v-layout text-xs-center wrap>
       <v-flex xs12>
-        hello, world <br>  ~ <a href="https://heinhtetaung.com">hnhtag</a>
+         Page Two - route /page2
       </v-flex>
     </v-layout>
   </v-container>
