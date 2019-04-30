@@ -26,3 +26,8 @@
 
 - Add dynamic document title
 - Fixed some errors
+
+## v1.4
+[v1.4 - vuesterplate](https://github.com/hnhtag/vuesterplate/releases/tag/v1.4)
+
+- Fixed some errors
