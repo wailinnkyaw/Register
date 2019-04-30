@@ -14,6 +14,14 @@ git remote -v
 git remote rm origin
 ```
 
+### Create your own repo
+```
+git add all
+git commit -m "your commit"
+git remote add origin https://github.com/username/your-repo.git
+git push -u origin master
+```
+
 ### Install dependencies
 ```
 npm install
