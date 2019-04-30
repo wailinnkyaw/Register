@@ -1,5 +1,5 @@
 # vuerplate
-Vue boilerplate - Vue 2, Vuetify, Vue-router, Firebase 
+Vue boilerplate - Vue 2, Vuetify, Vue-router, Firebase, Axios
 
 ## Releases
 -  [v1.0 - vuesterplate](https://github.com/hnhtag/vuesterplate/releases/tag/v1.0) :skeleton (Vue2, Vuetify, Firebase, Vue-Router)
