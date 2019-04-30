@@ -1,4 +1,5 @@
 # vuerplate
+Starter boilerplate - Vue 2, Vuetify, Vue-router, Firebase 
 
 ## Project setup
 
