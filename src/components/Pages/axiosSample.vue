@@ -2,62 +2,56 @@
   <v-container>
     <vue-title :title="pgTitle + ' | Vuesterplate'"></vue-title>
     <v-layout text-xs-center wrap>
-        <v-flex v-if="errored"><v-alert type="warning" :value="true">
-             Error occurred while getting exchanges rates from "Central Bank of Myanmar"
-        </v-alert></v-flex>
-      <v-flex v-if="loading && !errored">Getting Exchanges Rates from "Central Bank of Myanmar". Please, wait</v-flex>
-      <v-flex xs12 offset-md3 md6 v-if="!loading && !errored">
+      <v-flex xs12>
         <v-card>
-          <v-layout>
-            <v-flex xs12>
-              <h1>Exchange Rates</h1>
-              <h2>"Central Bank of Myanmar"</h2>
-              <v-divider light></v-divider>
-              <v-list>
-                <v-list-tile v-for="(item, key) in axiosRates.rates" :key="key">
-                  <v-list-tile-content>
-                    <v-list-tile-title>1 {{key}} = {{item}} MMK</v-list-tile-title>
-                  </v-list-tile-content>
-                </v-list-tile>
-              </v-list>
-            </v-flex>
-          </v-layout>
+          <v-data-table :headers="headers" :items="empList" class="elevation-1">
+            <template v-slot:items="props">
+              <td class="text-xs-center">{{ props.item.id }}</td>
+              <td class="text-xs-left">{{ props.item.employee_name }}</td>
+              <td class="text-xs-right">{{ props.item.employee_salary }}</td>
+              <td class="text-xs-right">{{ props.item.employee_age }}</td>
+              <td class="text-xs-right">{{ props.item.profile_image }}</td>
+            </template>
+          </v-data-table>
         </v-card>
       </v-flex>
     </v-layout>
   </v-container>
 </template>
-
 <script>
-import axios from "axios";
+import { sampleApi } from "../../services/sample-api-service";
 export default {
   data() {
     return {
-      pgTitle:"Axios sample",
-      axiosRates: {},
+      pgTitle: "Axios sample",
+      empList: [],
       loading: false,
       errored: false,
-      errorText: ""
+      errorText: "",
+      headers: [
+        {
+          text: "ID",
+          value: "id",
+          sortable: true,
+          align: "center"
+        },
+        { text: "Name", value: "employee_name", align: "left" },
+        { text: "Salary", value: "employee_salary", align: "right" },
+        { text: "Age", value: "employee_age", align: "right" },
+        { text: "Profile", value: "profile_image", align: "right" }
+      ]
     };
   },
   mounted() {
     this.loading = true;
-    axios
-      .get(
-        `${"https://cors-anywhere.herokuapp.com/"}https://forex.cbm.gov.mm/api/latest`
-      )
-      .then(response => {
-        this.axiosRates = response.data;
-      })
-      .catch(error => {
-        //console.log(error);
-        this.errorText = error;
-        this.errored = true;
-      })
-      .finally(() => (this.loading = false));
+    this.getEmpList();
   },
   methods: {
-    //
+    getEmpList: function() {
+      sampleApi.getEmpList().then(res => {
+        this.empList = res.data;
+      });
+    }
   }
 };
 </script>

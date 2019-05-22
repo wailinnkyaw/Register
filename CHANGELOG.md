@@ -31,3 +31,9 @@
 [v1.3 - vuesterplate - fixed](https://github.com/hnhtag/vuesterplate/releases/tag/v1.3-fixed)
 
 - Fixed some errors
+
+
+## testing api
+
+Using dummy api
+[Dummy api example](http://dummy.restapiexample.com/)
